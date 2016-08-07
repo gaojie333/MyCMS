@@ -1,0 +1,5 @@
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Common\bin\Release\DTcms.Common.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Common\bin\Release\DTcms.Common.pdb
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.csprojResolveAssemblyReference.cache
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Common\obj\Release\DTcms.Common.pdb

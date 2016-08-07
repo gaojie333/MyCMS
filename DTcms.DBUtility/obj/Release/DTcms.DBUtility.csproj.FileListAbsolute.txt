@@ -1,0 +1,7 @@
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\bin\Release\DTcms.DBUtility.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\bin\Release\DTcms.DBUtility.pdb
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\bin\Release\DTcms.Common.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\bin\Release\DTcms.Common.pdb
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Release\DTcms.DBUtility.csprojResolveAssemblyReference.cache
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Release\DTcms.DBUtility.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.DBUtility\obj\Release\DTcms.DBUtility.pdb
