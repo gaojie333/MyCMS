@@ -519,3 +519,12 @@ function initCKPlayer(boxId, videoSrc, playerSrc){
     var video=[videoSrc];
     CKobject.embed(playerSrc,boxId,'video_v1','100%','100%',false,flashvars,video);
 }
+
+function loadedHandler() {
+    CKobject.getObjectById('video_v1').addListener('play', 'playHandler');
+}
+
+function playHandler() {
+    //CKobject.getObjectById('video_v1').removeListener('play', 'playHandler');
+    alert('捕获到播放动作');
+}
