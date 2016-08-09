@@ -287,6 +287,8 @@
     <Content Include="css\jquery.jcrop.css" />
     <Content Include="css\meneame.jpg" />
     <Content Include="css\pagination.css" />
+    <Content Include="templates\main\css\remodal-default-theme.css" />
+    <Content Include="templates\main\css\remodal.css" />
     <Content Include="css\validate.css" />
     <Content Include="css\valid_icons.png" />
     <Content Include="editor\kindeditor-min.js" />
@@ -539,6 +541,7 @@
     <Content Include="scripts\jquery\jquery.pagination.js" />
     <Content Include="scripts\jquery\PCASClass.js" />
     <Content Include="scripts\jquery\Validform_v5.3.2_min.js" />
+    <Content Include="scripts\remodal\remodal.js" />
     <Content Include="scripts\webuploader\uploader.swf" />
     <Content Include="scripts\webuploader\webuploader.min.js" />
     <Content Include="templates\main\about.png" />
@@ -619,6 +622,8 @@
     <Content Include="templates\mobile\content.html" />
     <Content Include="templates\mobile\css\idangerous.swiper.css" />
     <Content Include="templates\mobile\css\mobiscroll.custom-2.6.2.min.css" />
+    <Content Include="templates\mobile\css\remodal-default-theme.css" />
+    <Content Include="templates\mobile\css\remodal.css" />
     <Content Include="templates\mobile\css\style.css" />
     <Content Include="templates\mobile\down.html" />
     <Content Include="templates\mobile\down_list.html" />

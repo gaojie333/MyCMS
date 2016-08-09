@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,10 +7,23 @@
 <meta name="keywords" content="{model.seo_keywords}" />
 <meta name="description" content="{model.seo_description}" />
 <link href="<%templateskin%>/css/style.css" rel="stylesheet" type="text/css" />
+<link href="<%templateskin%>/css/remodal.css" rel="stylesheet" type="text/css" />
+<link href="<%templateskin%>/css/remodal-default-theme.css" rel="stylesheet" type="text/css" />
+
 <script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/jquery/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/ckplayer/ckplayer.js"></script>
 <script type="text/javascript" charset="utf-8" src="<%templateskin%>/js/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/remodal/remodal.js"></script>
+
 <script type="text/javascript">
+
+window.REMODAL_GLOBALS = {
+    NAMESPACE: 'modal',
+    DEFAULTS: {
+        hashTracking: false
+    }
+};
+
 $(function(){
 	//设置视频容器大小
 	winResize();
@@ -34,6 +47,19 @@ function winResize(){
 </head>
 
 <body>
+
+    <div class="remodal" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>Remodal</h1>
+        <p>
+            Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+        </p>
+        <br />
+        <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+        <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+    </div>
+
+
 <!--Header-->
 <%template src="_header.html"%>
 <!--/Header-->

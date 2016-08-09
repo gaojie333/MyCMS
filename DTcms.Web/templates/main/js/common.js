@@ -525,6 +525,21 @@ function loadedHandler() {
 }
 
 function playHandler() {
+
+    //var alertHtml="<div>111</div>"
+
+    //$("body").append(alertHtml);
+
+
+    var inst = $('[data-remodal-id=modal]').remodal();
+
+    /**
+     * Opens the modal window
+     */
+    inst.open();
+
+    //<a href="#modal">Call the modal with data-remodal-id="modal"</a>
     //CKobject.getObjectById('video_v1').removeListener('play', 'playHandler');
-    alert('捕获到播放动作');
+    //alert( document.cookie);
+    //alert('捕获到播放动作1');
 }
