@@ -287,6 +287,45 @@
     <Content Include="css\jquery.jcrop.css" />
     <Content Include="css\meneame.jpg" />
     <Content Include="css\pagination.css" />
+    <Content Include="html\main\video.aspx" />
+    <Content Include="html\main\video\29.aspx" />
+    <Content Include="html\main\video\29\1.aspx" />
+    <Content Include="html\main\video\30.aspx" />
+    <Content Include="html\main\video\30\1.aspx" />
+    <Content Include="html\main\video\31.aspx" />
+    <Content Include="html\main\video\31\1.aspx" />
+    <Content Include="html\main\video\32.aspx" />
+    <Content Include="html\main\video\32\1.aspx" />
+    <Content Include="html\main\video\33.aspx" />
+    <Content Include="html\main\video\33\1.aspx" />
+    <Content Include="html\main\video\34.aspx" />
+    <Content Include="html\main\video\34\1.aspx" />
+    <Content Include="html\main\video\35.aspx" />
+    <Content Include="html\main\video\35\1.aspx" />
+    <Content Include="html\main\video\36.aspx" />
+    <Content Include="html\main\video\36\1.aspx" />
+    <Content Include="html\main\video\37.aspx" />
+    <Content Include="html\main\video\37\1.aspx" />
+    <Content Include="html\main\video\38.aspx" />
+    <Content Include="html\main\video\38\1.aspx" />
+    <Content Include="html\main\video\39.aspx" />
+    <Content Include="html\main\video\39\1.aspx" />
+    <Content Include="html\main\video\show-71.aspx" />
+    <Content Include="html\main\video\show-72.aspx" />
+    <Content Include="html\main\video\show-73.aspx" />
+    <Content Include="html\main\video\show-74.aspx" />
+    <Content Include="html\main\video\show-75.aspx" />
+    <Content Include="html\main\video\show-76.aspx" />
+    <Content Include="html\main\video\show-77.aspx" />
+    <Content Include="html\main\video\show-78.aspx" />
+    <Content Include="html\main\video\show-79.aspx" />
+    <Content Include="html\main\video\show-80.aspx" />
+    <Content Include="html\main\video\show-81.aspx" />
+    <Content Include="html\main\video\show-82.aspx" />
+    <Content Include="html\main\video\show-83.aspx" />
+    <Content Include="html\main\video\show-84.aspx" />
+    <Content Include="html\main\video\show-85.aspx" />
+    <Content Include="html\main\video\show-86.aspx" />
     <Content Include="templates\main\css\remodal-default-theme.css" />
     <Content Include="templates\main\css\remodal.css" />
     <Content Include="css\validate.css" />
@@ -1491,7 +1530,6 @@
     <Content Include="xmlconfig\urls.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="html\" />
     <Folder Include="plugins\" />
     <Folder Include="upload\" />
   </ItemGroup>

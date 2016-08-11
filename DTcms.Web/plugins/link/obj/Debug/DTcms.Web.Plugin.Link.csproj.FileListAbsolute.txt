@@ -73,3 +73,8 @@ D:\dtCMS发货\集成更新包\DTcms_4.0_sql_src_Ultimate\DTcms.Web\bin\DTcms.We
 D:\dtCMS发货\集成更新包\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.csprojResolveAssemblyReference.cache
 D:\dtCMS发货\集成更新包\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.dll
 D:\dtCMS发货\集成更新包\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.pdb
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Web\bin\DTcms.Web.Plugin.Link.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Web\bin\DTcms.Web.Plugin.Link.pdb
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.csprojResolveAssemblyReference.cache
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.dll
+E:\personal\anchor\dtcms4\DTcms_4.0_sql_src_Ultimate\DTcms.Web\plugins\link\obj\Debug\DTcms.Web.Plugin.Link.pdb

@@ -408,3 +408,12 @@ function initCKPlayer(boxId, videoSrc, playerSrc){
     var video=[videoSrc];
     CKobject.embed(playerSrc,boxId,'video_v1','100%','100%',true,flashvars,video);
 }
+
+function loadedHandler() {
+    CKobject.getObjectById('video_v1').addListener('play', 'playHandler');
+}
+
+function playHandler() {
+    var inst = $('[data-remodal-id=modal]').remodal();
+    inst.open();
+}

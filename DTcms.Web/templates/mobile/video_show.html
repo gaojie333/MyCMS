@@ -10,6 +10,9 @@
 <link rel="stylesheet" type="text/css" href="<%templateskin%>/jqmobi/css/icons.css" />
 <link rel="stylesheet" type="text/css" href="<%templateskin%>/jqmobi/css/af.ui.base.css" />
 <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/style.css" />
+<link rel="stylesheet" type="text/css" href="<%templateskin%>/css/remodal.css" />
+<link rel="stylesheet" type="text/css" href="<%templateskin%>/css/remodal-default-theme.css" />
+
 <!--jqMobi主JS-->
 <script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/jquery/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="<%templateskin%>/jqmobi/jq.appframework.js"></script>
@@ -18,7 +21,18 @@
 <script type="text/javascript" charset="utf-8" src="<%templateskin%>/jqmobi/plugins/jq.slidemenu.js"></script>
 <script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/ckplayer/ckplayer.js"></script>
 <script type="text/javascript" charset="utf-8" src="<%templateskin%>/js/base.js"></script>
+<script type="text/javascript" charset="utf-8" src="{config.webpath}scripts/remodal/remodal.js"></script>
+
 <script type="text/javascript">
+
+    window.REMODAL_GLOBALS = {
+        NAMESPACE: 'modal',
+        DEFAULTS: {
+            hashTracking: false
+        }
+    };
+
+
 	$(document).ready(function(e) {
 		//设置视频容器大小
 		winResize();
@@ -38,6 +52,18 @@
 </head>
 
 <body>
+
+    <div class="remodal" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>Remodal</h1>
+        <p>
+            Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+        </p>
+        <br />
+        <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+        <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+    </div>
+
 <div id="afui">
   <div id="content">
 

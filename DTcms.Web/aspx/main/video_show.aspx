@@ -9,8 +9,8 @@ override protected void OnInit(EventArgs e)
 {
 
 	/* 
-		This page was created by DTcms Template Engine at 2015/9/16 14:04:02.
-		本页面代码由DTcms模板引擎生成于 2015/9/16 14:04:02. 
+		This page was created by DTcms Template Engine at 2016/8/9 21:03:49.
+		本页面代码由DTcms模板引擎生成于 2016/8/9 21:03:49. 
 	*/
 
 	base.OnInit(e);
@@ -32,7 +32,11 @@ override protected void OnInit(EventArgs e)
 	templateBuilder.Append(Utils.ObjectToStr(model.seo_description));
 	templateBuilder.Append("\" />\r\n<link href=\"");
 	templateBuilder.Append("/templates/main");
-	templateBuilder.Append("/css/style.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"");
+	templateBuilder.Append("/css/style.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<link href=\"");
+	templateBuilder.Append("/templates/main");
+	templateBuilder.Append("/css/remodal.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n<link href=\"");
+	templateBuilder.Append("/templates/main");
+	templateBuilder.Append("/css/remodal-default-theme.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"");
 	templateBuilder.Append(Utils.ObjectToStr(config.webpath));
 	templateBuilder.Append("scripts/jquery/jquery-1.11.2.min.js\"></");
 	templateBuilder.Append("script>\r\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"");
@@ -41,10 +45,13 @@ override protected void OnInit(EventArgs e)
 	templateBuilder.Append("script>\r\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"");
 	templateBuilder.Append("/templates/main");
 	templateBuilder.Append("/js/common.js\"></");
-	templateBuilder.Append("script>\r\n<script type=\"text/javascript\">\r\n$(function(){\r\n	//设置视频容器大小\r\n	winResize();\r\n	$(window).resize(function() {\r\n		winResize();\r\n	});\r\n	//初始化视频容器\r\n	initCKPlayer('video-box', '" + Utils.ObjectToStr(model.fields["video_src"]) + "', '");
+	templateBuilder.Append("script>\r\n<script type=\"text/javascript\" charset=\"utf-8\" src=\"");
+	templateBuilder.Append(Utils.ObjectToStr(config.webpath));
+	templateBuilder.Append("scripts/remodal/remodal.js\"></");
+	templateBuilder.Append("script>\r\n\r\n<script type=\"text/javascript\">\r\n\r\nwindow.REMODAL_GLOBALS = {\r\n    NAMESPACE: 'modal',\r\n    DEFAULTS: {\r\n        hashTracking: false\r\n    }\r\n};\r\n\r\n$(function(){\r\n	//设置视频容器大小\r\n	winResize();\r\n	$(window).resize(function() {\r\n		winResize();\r\n	});\r\n	//初始化视频容器\r\n	initCKPlayer('video-box', '" + Utils.ObjectToStr(model.fields["video_src"]) + "', '");
 	templateBuilder.Append(Utils.ObjectToStr(config.webpath));
 	templateBuilder.Append("scripts/ckplayer/ckplayer.swf');\r\n});\r\n//改变大小函数\r\nfunction winResize(){\r\n	if($(\".section\").width() == 1180){\r\n		$(\".video-box\").width(840);\r\n		$(\".video-box\").height(473);\r\n	}else{\r\n		$(\".video-box\").width(601);\r\n		$(\".video-box\").height(338);\r\n	}\r\n}\r\n</");
-	templateBuilder.Append("script>\r\n</head>\r\n\r\n<body>\r\n<!--Header-->\r\n");
+	templateBuilder.Append("script>\r\n</head>\r\n\r\n<body>\r\n\r\n    <div class=\"remodal\" data-remodal-id=\"modal\">\r\n        <button data-remodal-action=\"close\" class=\"remodal-close\"></button>\r\n        <h1>Remodal</h1>\r\n        <p>\r\n            Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.\r\n        </p>\r\n        <br />\r\n        <button data-remodal-action=\"cancel\" class=\"remodal-cancel\">Cancel</button>\r\n        <button data-remodal-action=\"confirm\" class=\"remodal-confirm\">OK</button>\r\n    </div>\r\n\r\n\r\n<!--Header-->\r\n");
 
 	templateBuilder.Append("<div class=\"header\">\r\n  <div class=\"header-wrap\">\r\n    <div class=\"section\">\r\n      <div class=\"left-box\">\r\n        <a class=\"logo\" href=\"");
 	templateBuilder.Append(linkurl("index"));
